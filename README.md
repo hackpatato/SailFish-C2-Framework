@@ -1,8 +1,7 @@
 # SailFish
  **Don't you worry, it's gonna be like I'm not even here**
 
--lalo salamanca
-
+-Lalo Salamanca
  
   [![License: GPL v3](https://img.shields.io/badge/License-GPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
   [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
