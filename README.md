@@ -1,4 +1,4 @@
-#Sail Fish
+# SailFish
 
 A keylogger C2 (Command & Control) tool developed for red team operations and educational research. It uses Telegram as its C2 channel and encrypts data with a Base64 + XOR combination. This is the developer's first project written in C.
 
@@ -9,7 +9,7 @@ A keylogger C2 (Command & Control) tool developed for red team operations and ed
 
 
 -------------------------------------
-Features
+**Features**
 
     C2 communication over the Telegram Bot API
 
