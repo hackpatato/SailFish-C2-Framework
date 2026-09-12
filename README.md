@@ -37,3 +37,6 @@ A keylogger C2 (Command & Control) tool developed for red team operations and ed
 
 Installation
 
+'''
+It is not ready for now.
+'''
