@@ -8,7 +8,7 @@
   [![Lang C](https://img.shields.io/badge/Lang-C-white.svg)](http://makeapullrequest.com)
   [![version](https://img.shields.io/badge/version:-v0.01.alpha-red.svg)](http://makeapullrequest.com)
 
-A keylogger C2 (Command & Control) tool developed for red team operations and educational research. It uses Telegram as its C2 channel and encrypts data with a Base64 + XOR combination. This is the developer's first project written in C.
+A keylogger C2 (Command & Control) tool developed for red team operations and educational research. It uses Telegram as its C2 channel and encrypts data with a Base64 + XOR combination. 
 
 
 <div align="center">
