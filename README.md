@@ -15,25 +15,12 @@ A keylogger C2 (Command & Control) tool developed for red team operations and ed
 
   <img src="logo.png" alt="sail fish logo" width="360">
 
+## Features
+* **Telegram C2 Integration:** Communication over Telegram Bot API.
+* **Layered Encryption:** Data obfuscation via Base64 + XOR encryption.
+* **Low Footprint:** Written in C with minimal external dependencies for performance.
+* **Red Team Focused:** Designed for educational research and OffSec training.
 
--------------------------------------
-**Features**
-
-      C2 communication over the Telegram Bot API
-
-    
-        Layered encryption using Base64 + XOR
-    
-    
-        Lightweight and low resource consumption
-
-    
-        Written in C with minimal external dependencies
-
-    
-           Designed for red team operations and cybersecurity training
-
--------------------------------------
 
 Installation
 
