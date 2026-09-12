@@ -10,16 +10,13 @@ A keylogger C2 (Command & Control) tool developed for red team operations and ed
 
 -------------------------------------
 **Features**
-
+**
     C2 communication over the Telegram Bot API
-
     Layered encryption using Base64 + XOR
-
     Lightweight and low resource consumption
-
     Written in C with minimal external dependencies
-
     Designed for red team operations and cybersecurity training
+**
 -------------------------------------
 
 Installation
