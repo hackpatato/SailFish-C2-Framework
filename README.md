@@ -13,7 +13,7 @@ A keylogger C2 (Command & Control) tool developed for red team operations and ed
 
 <div align="center">
 
-  <img src="logo.png" alt="sail fish logo" width="360">
+  <img src="Logo.png" alt="sail fish logo" width="360">
 
 ## Features
 * **Telegram C2 Integration:** Communication over Telegram Bot API.
