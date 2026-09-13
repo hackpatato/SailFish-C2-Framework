@@ -14,7 +14,6 @@ int main(void) {
 
     time_t lastSendTime = time(NULL);
 
-    //printf("good...\n");
 
     while (1) {
         StartLogging();
