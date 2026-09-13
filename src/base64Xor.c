@@ -4,12 +4,12 @@
 
 static const char base64Table[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
 // ı hate crypto things
-void Xorcipher(char *data, size_t dataLen, char key) {
+void XorCipher(char *data, size_t dataLen, char key) {
     for (size_t i = 0; i < dataLen; i++) {
         data[i] = data[i] ^ key;
     }
 }
-char* base64Encode(const unsigned char *data, size_t inputLen) {
+char* Base64Encode(const unsigned char *data, size_t inputLen) {
     size_t outputLen = 4 * ((inputLen + 2) / 3);
     char *encodedData =(char *)malloc(outputLen + 1);
     if (encodedData == NULL) return NULL;

