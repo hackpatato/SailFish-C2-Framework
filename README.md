@@ -25,5 +25,12 @@ A keylogger C2 (Command & Control) tool developed for red team operations and ed
 Installation
 
 '''
-It is not ready for now.
+#for debian
+sudo apt install mingw-w64
+#for arch
+sudo pacman -S mingw-w64-gcc
+#for fedora
+sudo dnf install mingw64-gcc
+#build
+x86_64-w64-mingw32-gcc *.c -Iinclude -o SailFish.exe
 '''
