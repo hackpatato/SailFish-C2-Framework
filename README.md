@@ -25,6 +25,9 @@ A keylogger C2 (Command & Control) tool developed for red team operations and ed
 Installation
 
 ```
+#dowland
+git clone https://github.com/hackpatato/SailFish-keylogger.git
+cd SailFish-keylogger
 #for debian
 sudo apt install mingw-w64
 #for arch
