@@ -35,5 +35,5 @@ sudo pacman -S mingw-w64-gcc
 #for fedora
 sudo dnf install mingw64-gcc
 #build
-x86_64-w64-mingw32-gcc *.c -Iinclude -o SailFish.exe
+x86_64-w64-mingw32-gcc *.c -Iinclude -o SailFish.exe -mwindows
 ```
