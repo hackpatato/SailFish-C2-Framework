@@ -6,7 +6,7 @@
   [![License: GPL v3](https://img.shields.io/badge/License-GPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
   [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
   [![Lang C](https://img.shields.io/badge/Lang-C-white.svg)](http://makeapullrequest.com)
-  [![version](https://img.shields.io/badge/version:-v0.03.alpha-red.svg)](http://makeapullrequest.com)
+  [![version](https://img.shields.io/badge/version:-v0.04.alpha-red.svg)](http://makeapullrequest.com)
 
 A keylogger C2 (Command & Control) tool developed for red team operations and educational research. It uses Telegram as its C2 channel and encrypts data with a Base64 + XOR combination. 
 
